@@ -18,7 +18,12 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Provide steps for installation of the application",
+    message: "Provide instructions for installation of the application",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Provide usage for the application",
   },
   {
     type: "list",
@@ -26,8 +31,19 @@ const questions = [
     message: "Select license for the application",
     choices: [
         "Apache 2.0",
-        "Boost 2.0"
+        "Boost 1.0",
+        "Eclipse 1.0"
     ]   
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "Provide guidelines for contribution",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Provide instructions to test the application",
   },
   {
     type: "input",

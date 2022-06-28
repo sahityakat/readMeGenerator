@@ -3,6 +3,10 @@
 function renderLicenseBadge(license) {
   if(license === "Apache 2.0") {
     return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  } else if(license === "Eclipse 1.0") {
+    return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
+  } else if(license === "Boost 1.0") {
+    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
   }
 }
 
@@ -28,22 +32,28 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
 
 ## Usage
+${data.usage}
 
 ## License
+Notice: This application is covered under ${data.license} ${renderLicenseBadge(data.license)}
 
 ## Contributing
+${data.contributing}
 
 ## Tests
+${data.tests}
 
 ## Questions
-![Github Repository](https://github.com/${data.username})  
+[Github Repository](https://github.com/${data.username})  
 You can reach me with any questions at ${data.useremail}
 
 
