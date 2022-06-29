@@ -20,6 +20,7 @@ const questions = [
   },
   {
     type: "input",
+
     name: "description",
     message: "Provide a description of the application",
     validate: titleInput => {
@@ -112,7 +113,12 @@ const questions = [
     message: "Provide your email",
     validate: titleInput => {
       if (titleInput) {
-        return true;
+        if(validateEmail(titleInput)) {
+          return true;
+        } else {
+          console.log('Please enter a valid email');
+          return false;
+        } 
       } else {
         console.log('Please provide your email');
         return false;
@@ -121,6 +127,17 @@ const questions = [
   },
   
 ];
+
+// Function to validate email address
+function validateEmail(mail) 
+{
+  var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  if(mail.match(mailformat))
+  {
+    return (true);
+  }
+    return (false);
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

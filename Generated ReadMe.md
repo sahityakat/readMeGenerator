@@ -26,7 +26,7 @@ Notice: This application is covered under Boost 1.0 [![License](https://img.shie
 Please clone the repository before making changes
 
 ## Tests
-Deploy the application to Heroku or load the page from local hots to view the results. You can also test routes from Insomnia
+Deploy the application to Heroku or load the page from local host. You can also test the routes from Insomnia
 
 ## Questions
 Link to the repository [Github Repository](https://github.com/sahityakat)  
