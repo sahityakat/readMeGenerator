@@ -9,21 +9,53 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is the title of your application?",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please enter the title of your application');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "description",
     message: "Provide a description of the application",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide a description for the application');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "installation",
     message: "Provide instructions for installation of the application",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide instructions for installation of the application');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "usage",
     message: "Provide usage for the application",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide usage for the application');
+        return false;
+      }
+    }
   },
   {
     type: "list",
@@ -39,21 +71,53 @@ const questions = [
     type: "input",
     name: "contributing",
     message: "Provide guidelines for contribution",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide guidelines for contribution');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "tests",
     message: "Provide instructions to test the application",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide instructions to test the application');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "username",
     message: "Provide your github username",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide your github username');
+        return false;
+      }
+    }
   },
   {
     type: "input",
     name: "useremail",
     message: "Provide your email",
+    validate: titleInput => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log('Please provide your email');
+        return false;
+      }
+    }
   },
   
 ];

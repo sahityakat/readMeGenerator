@@ -1,12 +1,10 @@
-# 
-[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+# Note Taker
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
-
+Enables users to add, update and delete notes
 
 ## Table of Contents 
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,22 +14,22 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Questions](#questions)
 
 ## Installation
-
+Install npm, express, inquirer and uniqid packages
 
 ## Usage
-
+The application enables users to add, update and delete notes
 
 ## License
-Notice: This application is covered under Eclipse 1.0 [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+Notice: This application is covered under Boost 1.0 [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Contributing
-
+Please clone the repository before making changes
 
 ## Tests
-
+Deploy the application to Heroku or load the page from local hots to view the results. You can also test routes from Insomnia
 
 ## Questions
-[Github Repository](https://github.com/)  
-You can reach me with any questions at 
+Link to the repository [Github Repository](https://github.com/sahityakat)  
+If you have any further questions, you can reach me at sahityakat@gmail.com
 
 
